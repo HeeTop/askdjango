@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'hackathon',
     'debug_toolbar',
     'accounts',
+    'webcrawler',
 ]
 
 MIDDLEWARE = [
