@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+{% for post in posts %}
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.message }}</p>
+    <img src="{{ post.photo.url }}">
+    {{post.photo}}
+{% endfor %}
+</body>
+</html>
